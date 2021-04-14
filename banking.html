@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BANKING</title>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="frontpage.css">
+</head>
+<body background="15205862596299qt1OwNzLQqgx_L.jpg">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+  <a href="form formation.html">Sign Up</a>
+</div>
+<span style="font-size:30px;cursor:pointer;background-color:black;color:dodgerblue" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<a href="front page.html"><button class="btn"><i class="fa fa-home"></i> Home</button></a>
+
+
+<div class="dropdown">
+  <button class="dropbtn">Medical</button>
+  <div class="dropdown-content">
+    <a href="biology.html">BIOLOGY</a>
+      <a href="physics.html">PHYSICS</a>
+      <a href="chemistry.html">CHEMISTRY</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Non-Medical</button>
+  <div class="dropdown-content">
+    <a href="mathematics.html">Mathematics</a>
+      <a href="physics.html">PHYSICS</a>
+      <a href="chemistry.html">CHEMISTRY</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Competition</button>
+  <div class="dropdown-content">
+    <a href="undergraduate.html">Undergraduate</a>
+      <a href="graduate.html">Graduate</a>
+      <a href="jobs.html">Jobs</a>
+  </div>
+</div>
+<button onclick="document.getElementById('id01').style.display='block'"class="btn"">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="front page.html">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="istockphoto-506316644-612x612.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<h1>BANK PAST YEAR PAPERS</h1><br>
+<a href="https://cracku.in/sbi-po-previous-papers"><button>click here to go to link</button></a><br>
+<hr>
+<h2>BANK PRACTICE QUESTIONS</h2><br>
+<a href="https://www.bankersadda.com/p/bank-free-practice-test-paper.html"><br>
+<button>click here to go to link</button>
+</a><br>
+<hr>
+<h3> BANK OFFICIAL WEBSITE</h3><br>
+<a href="https://www.sbi.co.in/careers/"><br>
+<button>click here to go to link</button>
+</a><br>
+<hr>
+</body>
+</html>
